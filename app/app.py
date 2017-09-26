@@ -19,5 +19,9 @@ def index():
 def test_redirect():
     return redirect('https://www.baidu.com')
 
+@app.route('/test_redirect_baidu')
+def test_redirect():
+    return redirect('https://www.baidu.com')
+
 if __name__ == '__main__':
     app.run(debug=True)
