@@ -1,5 +1,5 @@
 # coding:utf8
-from flask import Flask, jsonify, render_template, request
+from flask import Flask, jsonify, render_template, request,redirect
 app = Flask(__name__)
 
 
@@ -15,5 +15,9 @@ def add_numbers():
 def index():
     return render_template('index.html')
 
+@app.route('/test_redirect')
+def test_redirect():
+    return redirect('https://www.baidu.com')
+
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
