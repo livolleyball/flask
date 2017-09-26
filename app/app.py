@@ -19,9 +19,9 @@ def index():
 def test_redirect():
     return redirect('https://www.baidu.com')
 
-@app.route('/test_redirect_baidu')
-def test_redirect():
-    return redirect('https://www.baidu.com')
+@app.route('/test_redirect_flask')
+def test_redirect_flask():
+    return redirect('http://flask.pocoo.org/')
 
 if __name__ == '__main__':
     app.run(debug=True)
