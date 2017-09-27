@@ -9,7 +9,10 @@ def hello():
     print "hello world"
 
 def deploy():
-    with cd('/'):
+    with cd('/root/flask'):
+
+        run('pwd')
+        run('ls')
         run('git pull')
-        sudo('python app/app.py')
+        run('python app/app.py')
 
