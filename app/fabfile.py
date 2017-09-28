@@ -14,5 +14,6 @@ def deploy():
         run('pwd')
         run('ls')
         run('git pull')
-        run('python app/app.py')
+        run('pip install -r requirments.txt -i https://pypi.douban.com/simple')
+        run('python manage.py runserver')
 

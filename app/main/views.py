@@ -1,5 +1,6 @@
 # coding:utf8
 from flask import jsonify, render_template, request, redirect
+from .forms import Select
 from . import main
 
 
@@ -29,3 +30,16 @@ def goodbyeflask():
 @main.route('/user/<username>')
 def show_username(username):
     return 'User %s' % username
+
+
+@main.route('/select',methods=["GET", "POST"])
+def select():
+    form = Select()
+    if request.method == 'POST':
+        username = form.username.data
+        SelectMultipleField = form.SelectMultipleField.data
+        optSelectMultipleField = form.optSelectMultipleField.data
+        return render_template('select.html', form=form, username=username, SelectMultipleField=SelectMultipleField,
+                               optSelectMultipleField=optSelectMultipleField)
+
+    return render_template('select.html', form=form)

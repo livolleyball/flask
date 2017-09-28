@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # coding:utf8
 import os
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
 from app import create_app
 from flask_script import Manager, Shell
 

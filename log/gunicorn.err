@@ -1,42 +1,8 @@
-[2017-09-27 20:57:55 +0800] [12405] [INFO] Starting gunicorn 19.7.1
-[2017-09-27 20:57:55 +0800] [12405] [INFO] Listening at: http://0.0.0.0:8000 (12405)
-[2017-09-27 20:57:55 +0800] [12405] [INFO] Using worker: sync
-[2017-09-27 20:57:55 +0800] [12408] [INFO] Booting worker with pid: 12408
-[2017-09-27 20:57:55 +0800] [12409] [INFO] Booting worker with pid: 12409
-[2017-09-27 20:57:55 +0800] [12410] [INFO] Booting worker with pid: 12410
-[2017-09-27 20:57:55 +0800] [12411] [INFO] Booting worker with pid: 12411
-[2017-09-27 20:58:36 +0800] [12415] [INFO] Starting gunicorn 19.7.1
-[2017-09-27 20:58:36 +0800] [12415] [INFO] Listening at: http://0.0.0.0:8000 (12415)
-[2017-09-27 20:58:36 +0800] [12415] [INFO] Using worker: sync
-[2017-09-27 20:58:36 +0800] [12418] [INFO] Booting worker with pid: 12418
-[2017-09-27 20:58:36 +0800] [12419] [INFO] Booting worker with pid: 12419
-[2017-09-27 20:58:36 +0800] [12420] [INFO] Booting worker with pid: 12420
-[2017-09-27 20:58:36 +0800] [12421] [INFO] Booting worker with pid: 12421
-[2017-09-27 21:07:05 +0800] [16770] [INFO] Starting gunicorn 19.7.1
-[2017-09-27 21:07:05 +0800] [16770] [INFO] Listening at: http://0.0.0.0:8000 (16770)
-[2017-09-27 21:07:05 +0800] [16770] [INFO] Using worker: sync
-[2017-09-27 21:07:05 +0800] [16773] [INFO] Booting worker with pid: 16773
-[2017-09-27 21:07:05 +0800] [16774] [INFO] Booting worker with pid: 16774
-[2017-09-27 21:07:05 +0800] [16775] [INFO] Booting worker with pid: 16775
-[2017-09-27 21:07:05 +0800] [16776] [INFO] Booting worker with pid: 16776
-[2017-09-27 21:09:55 +0800] [16791] [INFO] Starting gunicorn 19.7.1
-[2017-09-27 21:09:55 +0800] [16791] [INFO] Listening at: http://0.0.0.0:8000 (16791)
-[2017-09-27 21:09:55 +0800] [16791] [INFO] Using worker: sync
-[2017-09-27 21:09:55 +0800] [16794] [INFO] Booting worker with pid: 16794
-[2017-09-27 21:09:55 +0800] [16795] [INFO] Booting worker with pid: 16795
-[2017-09-27 21:09:55 +0800] [16796] [INFO] Booting worker with pid: 16796
-[2017-09-27 21:09:55 +0800] [16797] [INFO] Booting worker with pid: 16797
-[2017-09-27 21:28:38 +0800] [16981] [INFO] Starting gunicorn 19.7.1
-[2017-09-27 21:28:38 +0800] [16981] [INFO] Listening at: http://0.0.0.0:8000 (16981)
-[2017-09-27 21:28:38 +0800] [16981] [INFO] Using worker: sync
-[2017-09-27 21:28:38 +0800] [16984] [INFO] Booting worker with pid: 16984
-[2017-09-27 21:28:38 +0800] [16985] [INFO] Booting worker with pid: 16985
-[2017-09-27 21:28:38 +0800] [16986] [INFO] Booting worker with pid: 16986
-[2017-09-27 21:28:38 +0800] [16987] [INFO] Booting worker with pid: 16987
-[2017-09-27 21:45:18 +0800] [17013] [INFO] Starting gunicorn 19.7.1
-[2017-09-27 21:45:18 +0800] [17013] [INFO] Listening at: http://0.0.0.0:8000 (17013)
-[2017-09-27 21:45:18 +0800] [17013] [INFO] Using worker: sync
-[2017-09-27 21:45:18 +0800] [17016] [INFO] Booting worker with pid: 17016
-[2017-09-27 21:45:18 +0800] [17017] [INFO] Booting worker with pid: 17017
-[2017-09-27 21:45:18 +0800] [17018] [INFO] Booting worker with pid: 17018
-[2017-09-27 21:45:18 +0800] [17019] [INFO] Booting worker with pid: 17019
+[2017-09-28 11:07:19 +0800] [779] [INFO] Worker exiting (pid: 779)
+[2017-09-28 11:07:19 +0800] [847] [INFO] Booting worker with pid: 847
+[2017-09-28 13:39:52 +0800] [776] [CRITICAL] WORKER TIMEOUT (pid:780)
+[2017-09-28 13:39:52 +0800] [776] [CRITICAL] WORKER TIMEOUT (pid:847)
+[2017-09-28 13:39:52 +0800] [780] [INFO] Worker exiting (pid: 780)
+[2017-09-28 13:39:52 +0800] [847] [INFO] Worker exiting (pid: 847)
+[2017-09-28 13:39:52 +0800] [906] [INFO] Booting worker with pid: 906
+[2017-09-28 13:39:52 +0800] [907] [INFO] Booting worker with pid: 907
